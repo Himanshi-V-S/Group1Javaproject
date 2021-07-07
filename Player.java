@@ -2,9 +2,9 @@ public class Player {
     private String name;
     private int age;
     private String type;
-    private String statistics;
+    private int statistics;
   
-    public player (String name, int age, String type, String statistics){
+    public player (String name, int age, String type, int statistics){
         this.name = name;
         this.age = age;
         this.type = type;
