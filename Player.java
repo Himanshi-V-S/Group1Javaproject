@@ -35,7 +35,15 @@ public class Player {
         
     }
     
-    public void displayTwoBestBatsman(){
+    public void displayTwoBestBatsmans(){
+        
+    }
+    
+    public void displaytwoBestBowlers(){
+    
+    }
+    
+    public void displayTwoBestKeepers(){
         
     }
 }
