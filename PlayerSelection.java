@@ -27,6 +27,10 @@ public class PlayerSelection {
         while(!menuChoice.equals("X") && !menuChoice.equals("x")) {
             System.out.println("Add player: A");
             System.out.println("View all players: V");
+            System.out.println("Get player average: AVG");
+            System.out.println("Get player details: PD");
+            System.out.println("Get player type: PT");
+            System.out.println("Get player best performance: BP");
             System.out.println("Display two best batsmans: B");
             System.out.println("Display two best bowlers: C");
             System.out.println("Display the best keeper: D");
@@ -52,6 +56,17 @@ public class PlayerSelection {
                 case "D": case "d":
                     //bestKeepers method call
                     break;
+                case "AVG":
+                    getAverage();
+                    break;
+                case "PD":
+                    getPlayerDetails();
+                    break;
+                case "BP":
+                    getBestPerformance();
+                    break;
+                case "PT":
+                    getPlayerType();
                 case "X": case "x":
                     System.out.println("Exited program");
                     break;
