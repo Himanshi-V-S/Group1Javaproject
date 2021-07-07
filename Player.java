@@ -26,4 +26,12 @@ public class Player {
     public void getPlayerType(){
     
     }
+    
+    public void addPlayer(){
+        
+    }
+    
+    public void displayMethods(){
+        
+    }
 }
