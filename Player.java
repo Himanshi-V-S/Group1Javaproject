@@ -31,7 +31,11 @@ public class Player {
         
     }
     
-    public void displayMethods(){
+    public void viewPlayers(){
+        
+    }
+    
+    public void displayTwoBestBatsman(){
         
     }
 }
