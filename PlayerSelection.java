@@ -42,19 +42,19 @@ public class PlayerSelection {
 
             switch (menuChoice) {
                 case "A": case "a":
-                    //addmethod call
+                    addPlayer();
                     break;
                 case "V": case "v":
-                    //viewAllPlayers method call
+                    viewPlayers();
                     break;
                 case "B": case "b":
-                    //bestBatsmans method call
+                    displayTwoBestBatsmans();
                     break;
                 case "C": case "c":
-                    //bestBowlers method call
+                    displaytwoBestBowlers();
                     break;
                 case "D": case "d":
-                    //bestKeepers method call
+                    displayTwoBestKeepers();
                     break;
                 case "AVG":
                     getAverage();
